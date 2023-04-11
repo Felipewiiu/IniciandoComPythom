@@ -15,7 +15,8 @@ def testa_recursao(valor):
         print(result)
     else:
         result = 0
-        return result
+    return result
 
 print("\n\nResultado da recursão ")
-testa_recursao(8)
+testa_recursao(2)
+
