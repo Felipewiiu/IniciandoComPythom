@@ -23,7 +23,7 @@ aluno = {
 }
 
 for x,y in aluno.items():
-    print(x,y)
+    print(x,y, "\n\n")
 
 # Outro exemplo de dicionário
 
@@ -33,6 +33,30 @@ automovel = {
     'ano': 2019
 }
 
-print(automovel["marca"])
+# Aqui se faz um for em um dicionário
+
+
+print("*" * 60)
+
+for chave, valor in automovel.items():
+    print(chave, valor)
+
+# Adição de elemetos em um dicionário
+
+automovel_clube = {
+    'marca': 'Ford',
+    'modelo': 'Mustang',
+    'ano': 2019
+}
+
+automovel_clube["cor"] = "Vermelho"
+print(automovel_clube)
+
+# Deletando itens de um dicionário
+
+del automovel_clube ["cor"]
+
+print(f"Cor deletada {automovel_clube}")
+
 
     
